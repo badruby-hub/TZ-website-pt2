@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+        <video class="video" autoplay loop muted>
+            <source src="video/video.mp4" type="video/mp4" />
+        </video>
+        <svg viewBox="0 0 400 210">
+            <defs>
+                <mask id="mask">
+                    <rect width="400" height="210" x="0" fill="#fff" />
+                    <rect width="120" height="20" x="155" y="20" fill="red" />
+                    <rect width="60" height="20" x="115" y="60" fill="red" />
+                    <rect width="88" height="20" x="155" y="100" fill="red" />
+                    <rect width="220" height="20" x="170" y="140" fill="red" />
+                </mask>
+            </defs>
+            <rect width="400" height="210" fill="#000" mask="url(#mask)" />
+            <text style="font-size: 32px" font-family="Oswald" font-weight="bold" fill="#fff" x="10" y="40">
+                We're here
+            </text>
+            <text style="font-size: 32px" font-family="Oswald" font-weight="bold" fill="#fff" x="285" y="40">
+                to make
+            </text>
+            <text style="font-size: 32px" font-family="Oswald" font-weight="bold" fill="#fff" x="10" y="80">
+                healthy
+            </text>
+            <text style="font-size: 32px" font-family="Oswald" font-weight="bold" fill="#fff" x="184" y="80">
+                living effortless
+            </text>
+            <text style="font-size: 32px" font-family="Oswald" font-weight="bold" fill="#fff" x="10" y="120">
+                so you can
+            </text>
+            <text style="font-size: 32px" font-family="Oswald" font-weight="bold" fill="#fff" x="250" y="120">
+                live longer
+            </text>
+            <text style="font-size: 32px" font-family="Oswald" font-weight="bold" fill="#fff" x="10" y="160">
+                and happier
+            </text>
+        </svg>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
